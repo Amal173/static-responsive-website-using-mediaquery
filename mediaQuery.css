@@ -25,18 +25,19 @@
     .brand-banner {
         gap: 80px;
     }
-.nav-section ul
-{
-    gap: 10px;
-}
-.nav-section
-{
-    justify-content: center;
-}
-.brand-logo
-{
-    padding-right: 15px;
-}
+
+    .nav-section ul {
+        gap: 10px;
+    }
+
+    .nav-section {
+        justify-content: center;
+    }
+
+    .brand-logo {
+        padding-right: 15px;
+    }
+
     .sections-headings.main {
         align-items: center;
     }

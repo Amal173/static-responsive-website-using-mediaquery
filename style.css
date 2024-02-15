@@ -115,6 +115,9 @@
     overflow-y: auto;
     height: 75px;
 }
+.dropdown-links::-webkit-scrollbar{
+display: none;
+}
 .dropdown-links li a
 {
     width: 100%;
