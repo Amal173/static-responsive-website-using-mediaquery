@@ -1,0 +1,605 @@
+:root {
+    --primary-color: #23A6F0;
+    --secondary-color: #ECF4FF;
+    --white-color: #FFFFFF;
+    --headings-color: #252B42;
+    --paragraph-color: #737373;
+    --line-color: #E74040;
+}
+
+@media screen and (max-width:1024px) {
+    .banner-img {
+        display: none;
+    }
+
+    .new-icon {
+        display: none;
+    }
+
+    .banner-heading {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .brand-banner {
+        gap: 80px;
+    }
+.nav-section ul
+{
+    gap: 10px;
+}
+.nav-section
+{
+    justify-content: center;
+}
+.brand-logo
+{
+    padding-right: 15px;
+}
+    .sections-headings.main {
+        align-items: center;
+    }
+
+    .brand-banner-content h2 {
+        font-size: 30px;
+    }
+
+    .butn {
+        padding: 12px 15px;
+    }
+
+    .brand-logo {
+        font-size: 22px;
+    }
+
+    .main-banner .sections-headings p {
+        font-size: 17px;
+    }
+
+    .brands-logos {
+        padding: 25px 0px;
+    }
+
+    .cards {
+        gap: 17px;
+        margin-top: unset;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 25px 15px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.07);
+    }
+
+    .card p {
+        max-width: 500px;
+    }
+
+    .card h3 {
+        align-items: center;
+    }
+
+    .main-section {
+        padding: 50px 0px;
+    }
+
+    .brand-banner {
+        margin-top: 50px;
+    }
+
+    .sales-card-flx {
+        padding: 50px 0px;
+        gap: 40px;
+    }
+
+    .sales-cards {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .image-box img {
+        height: 100%;
+    }
+
+    .box-content {
+        padding: 25px 35px;
+    }
+
+    .box-content p {
+        font-size: 13px;
+    }
+
+    .price-cards {
+        gap: 15px;
+    }
+
+    .price-card {
+        padding: 30px 15px;
+        gap: 15px;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .sections-headings h1 {
+        font-size: 48px;
+
+    }
+
+    .sections-headings p {
+        font-size: 13px;
+    }
+
+    .sales_card-banner .sections-headings h1 {
+        font-size: 30px;
+    }
+
+    .sections-headings h5 {
+        font-size: 13px;
+    }
+
+    .sales_card-banner .sections-headings p {
+        max-width: 400px;
+        font-size: 13px;
+    }
+
+    .package-maincontent .sections-headings h1 {
+        font-size: 40px;
+    }
+
+    .package-maincontent .sections-headings p {
+        font-size: 13px;
+    }
+
+    .package-section {
+        gap: 40px;
+        padding: 40px 0px;
+    }
+
+    .feedback-page {
+        padding: 40px 0px;
+        gap: 40px;
+    }
+
+    .user-image {
+        width: 40px;
+    }
+
+    .sections-headings.feedbk {
+        gap: 10px;
+    }
+
+    .sections-headings.feedbk h1 {
+        font-size: 40px;
+    }
+
+    .main-input {
+        padding: 40px 0px;
+        gap: 25px;
+    }
+
+    .feedback-reviews p {
+        font-size: 13px;
+    }
+
+    .user-details h4 {
+        font-size: 13px;
+    }
+
+    .user-details h5 {
+        font-size: 11px;
+    }
+
+    .feedback {
+        gap: 10px;
+    }
+
+    .feedback-page .sections-headings h1 {
+        font-size: 30px;
+    }
+
+    .feedback-page .sections-headings p {
+        font-size: 13px;
+    }
+
+    .footer-top {
+        gap: 30px;
+    }
+
+    .submit-button button {
+        padding: 8px 20px;
+    }
+
+    .list-section ul li {
+        font-size: 13px;
+    }
+
+    .list-section h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .header {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .nav-section .butn.unfilled.menu {
+        display: inline;
+        padding: 0;
+        color: #ffff;
+        font-size: 21px;
+    }
+
+    .nav-section ul {
+        top: 74px;
+        position: fixed;
+        display: block;
+        background-color: dimgray;
+        width: 100%;
+        left: -100%;
+        text-align: center;
+        align-items: center;
+        height: 100vh;
+        overflow-y: auto;
+        justify-content: center;
+        transition: all 0.5s;
+
+    }
+
+    .header-flex label {
+        display: block;
+        padding: 9px;
+        width: 10px;
+    }
+
+    #check:checked~.nav-section ul {
+        left: 0%;
+    }
+
+    #check:checked~label i::before {
+        content: "\f00d";
+        font-size: 20px;
+    }
+
+    .nav-section ul li {
+
+        padding: 20px 0px;
+        color: var(--white-color);
+    }
+
+    .dropdown-links li a {
+        color: #FFFFFF;
+        width: 100%;
+    }
+
+    .nav-section ul li ul:hover {
+        color: var(--white-color);
+    }
+
+    .links:hover .dropdown-links {
+        position: initial;
+        overflow-y: auto;
+        height: 200px;
+        width: 100%;
+        transition: none;
+        display: block;
+    }
+
+    .nav-section ul li ul {
+        width: 100%;
+        transition: none;
+    }
+
+    .nav-section ul li a {
+        color: var(--white-color);
+        font-size: 21px;
+    }
+
+    .nav-section ul li a:hover {
+        color: var(--primary-color);
+
+    }
+
+    .nav-section ul li:hover {
+        color: var(--white-color);
+    }
+
+    .dropdown-links li:hover {
+        color: var(--white-color);
+
+    }
+
+    .dropdown-links li a {
+        padding: 0px;
+    }
+
+    .links i {
+        display: none;
+    }
+
+    .butn.butn.unfilled {
+        display: none;
+    }
+
+    .brand-logo {
+
+        font-size: 18px;
+    }
+
+    .brand img {
+        width: 60px;
+    }
+
+    .banner-heading {
+        width: 100%;
+    }
+
+    .brand-banner-content {
+        gap: 10px;
+    }
+
+    .brand-banner-content h2 {
+        gap: 10px;
+        font-size: 25px;
+    }
+
+    .brand-banner-content h2::before {
+        width: 70px;
+        height: 5px;
+    }
+
+    .brand-banner {
+        gap: 40px;
+    }
+
+    .cards {
+        margin-top: 0;
+        grid-template-columns: auto;
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box img {
+        width: 100%;
+    }
+
+    .box-content {
+        padding: 25px 35px;
+    }
+
+    .price-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price-card {
+
+        gap: 15px;
+        text-align: center;
+        align-items: center;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.07);
+    }
+
+    .points {
+        text-align: left;
+    }
+
+    .user-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .user-details {
+        align-items: center;
+        text-align: center;
+    }
+
+    .feedback-content {
+        padding: 5px;
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feedback {
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+
+    .brand-logo h3::before {
+        display: inline;
+    }
+
+    .sections-headings.main {
+        padding-top: 60px;
+    }
+
+    .user-image {
+        margin: 0;
+    }
+
+    .feedback-reviews p {
+        max-width: unset;
+    }
+
+    .package-maincontent {
+        align-items: center;
+        max-width: unset;
+    }
+
+    .package-maincontent .sections-headings {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sales-card-flx .sections-headings {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sales-card-flx .sections-headings p {
+        font-size: 12px;
+    }
+
+    .feedback-page .sections-headings {
+        align-items: center;
+        text-align: center;
+    }
+
+    .price-card h5 {
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .butn {
+        font-size: 11px;
+        padding: 10px 11px;
+    }
+
+
+    .sections-headings.main {
+        padding-top: 60px;
+    }
+
+    .brand-logo h3 {
+        font-size: 18px;
+    }
+
+    .sections-headings h1 {
+        line-height: 45px;
+    }
+
+    .sales_card-banner .sections-headings h1 {
+        font-size: 24px;
+    }
+
+    .package-maincontent .sections-headings h1 {
+        font-size: 27px;
+    }
+
+    .feedback-page .sections-headings h1 {
+        font-size: 27px;
+    }
+
+    .rating {
+        padding: 3px 6px;
+    }
+
+    .main-section {
+        padding: 25px 0px;
+    }
+
+    .head-title a {
+        font-size: 12px;
+    }
+
+    .footer-top {
+        grid-template-columns: auto;
+    }
+
+    .sections-headings.main h1 {
+        font-size: 36px;
+    }
+
+    .sections-headings.main p {
+        font-size: 13px;
+    }
+
+
+
+    .card {
+        padding: 20px;
+
+    }
+
+    .sales-card-flx {
+        padding: 25px 0px;
+        gap: 20px;
+    }
+
+    .package-section {
+        padding: 20px 0px;
+        gap: 20px;
+    }
+
+    .sections-headings {
+        gap: 5px;
+    }
+
+    .sections-headings.main {
+        gap: 5px;
+    }
+
+    .brand-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-banner-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .brand-banner-content h2 {
+        align-items: center;
+    }
+
+    .brands-logos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .submit-button button {
+        padding: 7px 10px;
+    }
+
+    .bottom-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .sections-headings.feedbk h1 {
+        font-size: 27px;
+    }
+
+    .sections-headings.feedbk {
+        gap: 0px;
+    }
+
+    .list-section {
+        gap: 10px;
+    }
+
+    .list-section ul {
+        gap: 5px;
+    }
+
+    .footer-top {
+        padding: 20px 0px;
+    }
+
+}
